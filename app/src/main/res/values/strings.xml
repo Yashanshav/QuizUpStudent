@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Quiz Up App</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="not_account">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="home">Home</string>
+    <string name="progress">Progress</string>
+    <string name="quiz_history">Quiz History</string>
+    <string name="name">Name</string>
+    <string name="branch">Branch</string>
+    <string name="registration_number">Registration Number</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="create_quiz" />
+    <string name="SuccessfulRegistration">createUserWithEmail:success</string>
+    <string name="SuccessRegister">Registration Successful</string>
+    <string name="submit">Submit</string>
+</resources>
