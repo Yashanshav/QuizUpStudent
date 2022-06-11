@@ -77,7 +77,9 @@ class AttemptQuizActivity : AppCompatActivity() {
                         userSnapshot.addOnCompleteListener {
                             val users = userSnapshot.result.toObject(Student :: class.java)
 
-                            result = Result(currentuser.uid, qz, marks, questionList?.size, users!!)
+                            if (questionList != null) {
+                                result = Result(currentuser.uid, qz, marks, questionList.size, users!!)
+                            }
                             ResultDao().addResult(result)
                         }
                     }
